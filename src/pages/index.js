@@ -4,90 +4,87 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import joinride from '../assets/images/joinride.png'
+import clt from '../assets/images/clt.png'
+import instanews from '../assets/images/instanews.png'
+import pong from '../assets/images/pong.png'
 
 class HomeIndex extends React.Component {
-    render() {
+  render() {
+    return (
+      <Layout>
+        <Helmet
+          title="Gatsby Starter - Forty"
+          meta={[
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
+          ]}
+        />
 
-        return (
-            <Layout>
-                <Helmet
-                    title="Gatsby Starter - Forty"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
+        <Banner />
 
-                <Banner />
-
-                <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-
-            </Layout>
-        )
-    }
+        <div id="main">
+          <section id="one" className="tiles">
+            <article style={{ backgroundImage: `url(${joinride})` }}>
+              <header className="major">
+                <h3>JoinRide</h3>
+                <p>A Carpool App made with MeteorJS</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${clt})` }}>
+              <header className="major">
+                <h3>Community Land Trust</h3>
+                <p>A custom WordPress website</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic03})` }}>
+              <header className="major">
+                <h3>FoodBuddy</h3>
+                <p>A React Native iOS Application</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${instanews})` }}>
+              <header className="major">
+                <h3>InstaNews</h3>
+                <p>A website that pulls data from NYTimes</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pong})` }}>
+              <header className="major">
+                <h3>Pong</h3>
+                <p>Classic Pong Game written in JavaScript</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic06})` }}>
+              <header className="major">
+                <h3>CrossFire</h3>
+                <p>Coming Soon</p>
+              </header>
+              <Link to="/landing" className="link primary" />
+            </article>
+          </section>
+          <section id="two">
+            <div className="inner">
+              <ul className="actions">
+                <li>
+                  <Link to="/about" className="button next">
+                    Learn more about me!
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </Layout>
+    )
+  }
 }
 
 export default HomeIndex
