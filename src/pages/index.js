@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic03 from '../assets/images/pic03.jpg'
+import foodbuddy from '../assets/images/foodbuddy.png'
 import pic06 from '../assets/images/pic06.jpg'
 import joinride from '../assets/images/joinride.png'
 import clt from '../assets/images/clt.png'
@@ -41,14 +41,24 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
+            <article
+              style={{
+                backgroundImage: `url(${foodbuddy})`,
+                backgroundSize: 'contain',
+              }}
+            >
               <header className="major">
                 <h3>FoodBuddy</h3>
                 <p>A React Native iOS Application</p>
               </header>
               <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${instanews})` }}>
+            <article
+              style={{
+                backgroundImage: `url(${instanews})`,
+                backgroundSize: 'contain',
+              }}
+            >
               <header className="major">
                 <h3>InstaNews</h3>
                 <p>A website that pulls data from NYTimes</p>
