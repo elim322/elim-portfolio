@@ -28,18 +28,27 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${joinride})` }}>
-              <header className="major">
-                <h3>JoinRide</h3>
-                <p>A Carpool App made with MeteorJS</p>
-              </header>
-              <Link to="/landing" className="link primary" />
+              <a
+                href="https://github.com/elim322/carpoolapp"
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>JoinRide</h3>
+                  <p>A Carpool App made with MeteorJS</p>
+                </header>
+              </a>
             </article>
+
             <article style={{ backgroundImage: `url(${clt})` }}>
-              <header className="major">
-                <h3>Community Land Trust</h3>
-                <p>A custom WordPress website</p>
-              </header>
-              <Link to="/landing" className="link primary" />
+              <a
+                href="https://clt.van.cp.academy.red/"
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>Community Land Trust</h3>
+                  <p>A custom WordPress website</p>
+                </header>
+              </a>
             </article>
             <article
               style={{
@@ -59,25 +68,32 @@ class HomeIndex extends React.Component {
                 backgroundSize: 'contain',
               }}
             >
-              <header className="major">
-                <h3>InstaNews</h3>
-                <p>A website that pulls data from NYTimes</p>
-              </header>
-              <Link to="/landing" className="link primary" />
+              <a
+                href="https://elim322.github.io/Instanews/"
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>InstaNews</h3>
+                  <p>A website that pulls data from NYTimes</p>
+                </header>
+              </a>
             </article>
             <article style={{ backgroundImage: `url(${pong})` }}>
-              <header className="major">
-                <h3>Pong</h3>
-                <p>Classic Pong Game written in JavaScript</p>
-              </header>
-              <Link to="/landing" className="link primary" />
+              <a
+                href="https://elim322.github.io/Pong-Game/."
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>Pong</h3>
+                  <p>Classic Pong Game written in JavaScript</p>
+                </header>
+              </a>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
                 <h3>CrossFire</h3>
                 <p>Coming Soon</p>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
           </section>
           <section id="two">
