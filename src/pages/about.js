@@ -7,7 +7,7 @@ import profile from '../assets/images/profile.jpg'
 const About = props => (
   <Layout>
     <Helmet>
-      <title>Generic - Forty by HTML5 UP</title>
+      <title>Einer Lim Portfolio</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 

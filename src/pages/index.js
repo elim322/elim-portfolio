@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import foodbuddy from '../assets/images/foodbuddy.png'
-import pic06 from '../assets/images/pic06.jpg'
+import crossfire from '../assets/images/crossfire.jpg'
 import joinride from '../assets/images/joinride.png'
 import clt from '../assets/images/clt.png'
 import instanews from '../assets/images/instanews.png'
@@ -30,6 +30,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${joinride})` }}>
               <a
                 href="https://github.com/elim322/carpoolapp"
+                target="_blank"
                 style={{ borderBottom: 'none' }}
               >
                 <header className="major">
@@ -41,7 +42,8 @@ class HomeIndex extends React.Component {
 
             <article style={{ backgroundImage: `url(${clt})` }}>
               <a
-                href="https://clt.van.cp.academy.red/"
+                href="https://www.cltrust.ca/"
+                target="_blank"
                 style={{ borderBottom: 'none' }}
               >
                 <header className="major">
@@ -60,7 +62,7 @@ class HomeIndex extends React.Component {
                 <h3>FoodBuddy</h3>
                 <p>A React Native iOS Application</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/foodbuddy" className="link primary" />
             </article>
             <article
               style={{
@@ -70,6 +72,7 @@ class HomeIndex extends React.Component {
             >
               <a
                 href="https://elim322.github.io/Instanews/"
+                target="_blank"
                 style={{ borderBottom: 'none' }}
               >
                 <header className="major">
@@ -81,6 +84,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pong})` }}>
               <a
                 href="https://elim322.github.io/Pong-Game/."
+                target="_blank"
                 style={{ borderBottom: 'none' }}
               >
                 <header className="major">
@@ -89,9 +93,9 @@ class HomeIndex extends React.Component {
                 </header>
               </a>
             </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
+            <article style={{ backgroundImage: `url(${crossfire})` }}>
               <header className="major">
-                <h3>CrossFire</h3>
+                <h3>CrossFire Film</h3>
                 <p>Coming Soon</p>
               </header>
             </article>

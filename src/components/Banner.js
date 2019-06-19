@@ -14,7 +14,11 @@ const Banner = props => (
           <br />
           I've worked with clients for creating
           <br />
-          responsive websites and apps.
+          responsive websites and apps. I am also
+          <br />
+          exploring other opportunities such as technical
+          <br />
+          support, VR/AR, UX Design and others!
         </p>
         <ul className="actions">
           <li>
