@@ -21,13 +21,10 @@ const JoinRide = props => (
             <h2>JoinRide</h2>
           </header>
           <p>
-            A Food Buddy is food recycling app created for the Local Hack Day
-            Hackathon at UBC. The app gives a way for Charities, Insititutions,
-            and others to donate food, to try and reduce food waste. A map in
-            the app provides users a way to track and located food donors for
-            pickup. The app is built on React Native which will allow us to port
-            to IOS and Android, however for this hackathon we have decided to
-            focus on ios, with android as a future consideration.
+            JoinRide is a ride sharing app created by me and 3 of my colleagues
+            at RED Academy. It matches a driver and passenger who are going to
+            the same location together. We used Meteor + MongoDB built with
+            React to create the app.
           </p>
         </div>
       </section>
@@ -42,12 +39,12 @@ const JoinRide = props => (
                 <h3>Our Inspiration</h3>
               </header>
               <p>
-                We wanted to create an app that would positively impact our
-                community. We decided to focus on food because everyday from
-                restaurants to supermarkets and even in our own homes, there is
-                often a lot of food waste. We wanted to build an app that would
-                make it easier to connect individuals and groups together to
-                reduce food wastage.
+                Our inspiration stemmed from creating a possible solution to
+                getting around in the Philippines. By matching drivers and
+                passengers who are going in the same direction we can try to
+                minimize traffic and make it convenient for drivers to earn a
+                bit of money on the side during their morning or evening
+                commute.
               </p>
             </div>
           </div>
@@ -62,12 +59,11 @@ const JoinRide = props => (
                 <h3>Functionality</h3>
               </header>
               <p>
-                We wanted our users to have the convenience of being able to
-                pinpoint the exact location of charities/organizations who are
-                willing to take food donations and vice versa. We also wanted to
-                provide our users the relevant groups based on the details they
-                have inputed and all of this data will be spatially mapped onto
-                our map.
+                Users: both driver and passenger alike will be able to choose a
+                location and once a location has been chosen a passenger list
+                drops down for the driver which will show a list of people
+                heading to the same direction. The driver picks a passenger and
+                the passenger confirms the selection viola!
               </p>
             </div>
           </div>
@@ -82,12 +78,12 @@ const JoinRide = props => (
                 <h3>What we've learned</h3>
               </header>
               <p>
-                This is our second project using React Native and we've managed
-                to avoid most of the errors by writing robust and efficient
-                code. However, unlike the first project we used mock data as
-                there were time constraints. Overall, this hackathon taught us
-                in many ways how to operate quickly and efficiently making sure
-                that we practice teamwork and collaboration under time pressure.
+                We decided to go beyond our comfort zone by creating a matching
+                app which none of us have done before. Our matching process is
+                based on creating states and using conditionals to check the
+                state of the driver and passenger from setting a location to
+                matching and to trip completion. It was a long process to get
+                the matching algorithm right, but it was well worth it.
               </p>
             </div>
           </div>

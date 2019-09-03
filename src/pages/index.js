@@ -10,6 +10,7 @@ import joinride from '../assets/images/joinride.png'
 import clt from '../assets/images/clt.png'
 import instanews from '../assets/images/instanews.png'
 import pong from '../assets/images/pong.png'
+import soroptimist from '../assets/images/soroptimist.png'
 
 class HomeIndex extends React.Component {
   render() {
@@ -89,10 +90,28 @@ class HomeIndex extends React.Component {
               </a>
             </article>
             <article style={{ backgroundImage: `url(${crossfire})` }}>
-              <header className="major">
-                <h3>CrossFire Film</h3>
-                <p>Coming Soon</p>
-              </header>
+              <a
+                href="https://crossfire-film.com/"
+                target="_blank"
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>CrossFire Film</h3>
+                  <p>Film website made with gatsbyJS</p>
+                </header>
+              </a>
+            </article>
+            <article style={{ backgroundImage: `url(${soroptimist})` }}>
+              <a
+                href="http://soroptimistcorinthians.com/"
+                target="_blank"
+                style={{ borderBottom: 'none' }}
+              >
+                <header className="major">
+                  <h3>Soroptimist Corinthians</h3>
+                  <p>A website for Soroptimist Corinthians Organization</p>
+                </header>
+              </a>
             </article>
           </section>
           <section id="two">
