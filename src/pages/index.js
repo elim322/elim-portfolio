@@ -28,16 +28,11 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${joinride})` }}>
-              <a
-                href="https://github.com/elim322/carpoolapp"
-                target="_blank"
-                style={{ borderBottom: 'none' }}
-              >
-                <header className="major">
-                  <h3>JoinRide</h3>
-                  <p>A Carpool App made with MeteorJS</p>
-                </header>
-              </a>
+              <header className="major">
+                <h3>JoinRide</h3>
+                <p>A Carpool App made with MeteorJS</p>
+              </header>
+              <Link to="/joinride" className="link primary" />
             </article>
 
             <article style={{ backgroundImage: `url(${clt})` }}>

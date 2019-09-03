@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import fbAbout from '../assets/images/fbAbout.png'
-import foodDonor from '../assets/images/foodDonor.png'
-import fbMap from '../assets/images/fbMap.png'
+import Passenger from '../assets/images/JoinRidePassenger.png'
+import Profile from '../assets/images/JoinRideProfile.png'
+import Role from '../assets/images/JoinRideRole.png'
 
 const JoinRide = props => (
   <Layout>
@@ -18,7 +18,7 @@ const JoinRide = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Food Buddy</h2>
+            <h2>JoinRide</h2>
           </header>
           <p>
             A Food Buddy is food recycling app created for the Local Hack Day
@@ -34,12 +34,12 @@ const JoinRide = props => (
       <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
-            <img src={fbAbout} alt="" />
+            <img src={Profile} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Our inspiration</h3>
+                <h3>Our Inspiration</h3>
               </header>
               <p>
                 We wanted to create an app that would positively impact our
@@ -54,7 +54,7 @@ const JoinRide = props => (
         </section>
         <section>
           <Link to="#" className="image">
-            <img src={fbMap} alt="" />
+            <img src={Passenger} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -74,7 +74,7 @@ const JoinRide = props => (
         </section>
         <section>
           <Link to="/generic" className="image">
-            <img src={foodDonor} alt="" />
+            <img src={Role} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
