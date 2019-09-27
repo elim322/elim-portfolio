@@ -8,17 +8,7 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          I am a Front-End Developer looking for
-          <br />
-          work in the field of Web/App Development.
-          <br />
-          I've worked with clients for creating
-          <br />
-          responsive websites and apps. I am also
-          <br />
-          exploring other opportunities such as technical
-          <br />
-          support, VR/AR, UX Design and others!
+          Changing the world one app at a time!
         </p>
         <ul className="actions">
           <li>
