@@ -41,27 +41,25 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="#">einer.lim322@gmail.com</a>
+            <a href="mailto:einer.lim322@gmail.com">einer.lim322@gmail.com</a>
           </div>
         </section>
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone" />
-            <h3>Phone</h3>
-            <span>(604) 349-8007</span>
+            <h3>Phone (Canada)</h3>
+            <a href="tel:+16043498007">
+              <span>(604) 349-8007</span>
+            </a>
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-home" />
-            <h3>Address</h3>
-            <span>
-              6533 Buswell St.
-              <br />
-              Richmond, BC V6Y 2G9
-              <br />
-              Canada
-            </span>
+            <span className="icon alt fa-phone" />
+            <h3>Phone (Philippines)</h3>
+            <a href="tel:+639178959828">
+              <span>(+63) 917-895-9828</span>
+            </a>
           </div>
         </section>
       </section>
